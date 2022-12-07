@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+    font-size: 1.2em;
+}
+.ancho{
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+.size{
+    font-size: 1.5em;
+}
+.dark{
+    background: rgb(39, 39, 39);
+}
+.dark h2{
+    text-align: center;
+    color: #ffff;
+}
+.tamaño{
+    width: inherit;
+    height: 180px;
+    max-width: 100%;
+}
+.color{
+    
+    color: #ffff;
+    text-align: center;
+    
+    font-size: 1.4em;
+}
+.card-t{
+    width: 100%;
+    height: 360px;
+}
+@media only screen and (min-width:768px){
+    
+    .color{
+        position: relative;
+        left: 38%;
+    }
+}
+@media only screen and (max-width:1401px){
+    
+    .card-t{
+        height: 400px;
+    }
+}
+@media only screen and (max-width:1228px){
+    
+    .card-t{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:1104px){
+    
+    .card-t{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:1008px){
+    
+    .card-t{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:966px){
+    
+    .card-t{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:907px){
+    
+    .card-t{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:864px){
+    
+    .card-t{
+        font-size: 13px;
+        
+    }
+}
+@media only screen and (max-width:837px){
+    
+    .card-t{
+        font-size: 12px;
+        
+    }
+}
+@media only screen and (max-width:785px){
+    
+    .card-t{
+        font-size: 11px;
+        
+    }
+}
+@media only screen and (max-width:765px){
+    
+    .card-t{
+        font-size: 22px;
+        
+    }
+}
